@@ -1,0 +1,47 @@
+/*1. El background de les pàgines ser un color sòlid */
+
+body{
+    background: rgb(231, 212, 172);
+}
+
+/*2. La font usada per les dues pàgines ha de ser la mateixa (i no pot ser la que posa el navegador per defecte).*/
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*3. Les entrades de text curt i d’email han de tenir una amplada de 300px. Fes servir una classe per aplicar l’estil.*/
+
+.text_curt {
+    width: 300px;
+}
+.email {
+    width: 300px;
+}
+
+/*4. L’entrada numèrica ha de tenir una amplada de 100px. Fes servir un identificador per aplicar l’estil.
+*/
+#entrada_numerica {
+    width: 100px;
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+
+.boto_personalitzat {
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.boto_personalitzat:hover {
+    background-color: burlywood;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+} 
+
+*:focus {
+    outline: none;
+    border: 2px solid #3498db;
+}
